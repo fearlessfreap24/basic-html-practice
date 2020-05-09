@@ -8,11 +8,24 @@
 
     <title>Mockup 5</title>
 
-    <!-- <style>
-      .bodytable {
+    <style>
+      #bodytable {
         border: 1px solid black;
+        border-collapse: collapse;
+        width: 400px;
       }
-    </style> -->
+      #bodytable th, #bodytable td {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+      }
+      #bodytable th {
+        background-color: grey;
+        text-align: left;
+      }
+      #bodytable tr:nth-child(even){
+        background-color: lightgray;
+      }
+    </style>
   </head>
   <body>
     <header style="background-color: #c1c1c1;">
@@ -54,8 +67,8 @@
       </nav>
     </header>
     <div style="padding-left: 1cm;" width="100%">
-      <p>My Awesome Table</p>
-      <table>
+      <h2>My Awesome Table</h2>
+      <table id="bodytable">
         <tr>
           <th>Firstname</th>
           <th>Lastname</th>
