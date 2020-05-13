@@ -6,21 +6,4 @@ a img {
   width: 50px;
 }
 
-#bodytable {
-  border: 1px solid black;
-  border-collapse: collapse;
-  width: 400px;
-}
-#bodytable th, #bodytable td {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-}
-#bodytable th {
-  background-color: grey;
-  text-align: left;
-}
-#bodytable tr:nth-child(even){
-  background-color: lightgray;
-}
-
 
