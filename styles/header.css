@@ -12,6 +12,7 @@ header {
 
 .header-nav {
     display: inline-block;
+    height: 50px;
 }
 
 .header-nav-icons {
@@ -30,6 +31,22 @@ header {
 }
 
 #header-nav-input-1 {
+    float: inline-start;
+    width: 50%;
     padding: 5px;
 }
 
+#header-nav-input-2 {
+    float: right;
+    width: 75%;
+    padding: 5px;
+}
+
+#search-icon {
+    position: absolute;
+    top: 25px;
+}
+
+#search-icon img {
+    width: 10px;
+}
