@@ -54,11 +54,18 @@ header {
     text-align: center;
 }
 
-#search-icon {
+#header-nav-input-2 input {
+    background: url('../img/searchIcon.png') no-repeat left;
+    background-size: 10px;
+    background-color: white;
+    padding-left: 11px;
+}
+
+/* #search-icon {
     position: absolute;
     top: 25px;
 }
 
 #search-icon img {
     width: 10px;
-}
+} */
